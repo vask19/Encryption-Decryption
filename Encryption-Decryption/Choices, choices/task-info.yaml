@@ -183,10 +183,22 @@ files:
   visible: true
   text: 111122223333
   learner_created: true
-- name: src/encryptdecrypt/algoritm/test.java
+- name: src/encryptdecrypt/algoritm/MainAlgoritmh.java
   visible: true
   learner_created: true
-- name: src/encryptdecrypt/algoritm/MainAlgoritmh.java
+- name: src/encryptdecrypt/test.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algoritm/EncodingDecoding.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algoritm/UnicodeAlgorithm.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algoritm/ShiftAlgorithm.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algoritm/EncodingDecodingSender.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/250/implement#comment
