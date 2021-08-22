@@ -1,16 +1,15 @@
 package encryptdecrypt;
 
-
-import encryptdecrypt.algoritm.MainAlgoritmh;
-
 public class Main {
     public static void main(String[] args) {
-        MainAlgoritmh mainAlgoritmh = new MainAlgoritmh();
+        EncryptionCore encryptionCore = new EncryptionCore();
+
         String mode = "enc";
         int key = 0;
-        String data = "";
+        String data = null;
         String inFile = "";
         String  outFile = "";
+        String algorithmName = null;
         
 
         for (int i =0;i<args.length-1;i++){
@@ -29,19 +28,14 @@ public class Main {
                     break;
                 case "-out":
                     outFile = args[i+1];
+                    break;
+                case "-alg":
+                    algorithmName = args[i+1];
+                    break;
             }
         }
+        encryptionCore.encryptOrDecrypt(data,algorithmName,mode,key,inFile,outFile);
 
-
-        MainAlgoritmh de = new MainAlgoritmh();
-        if (inFile.equals("")& outFile.equals(""))
-            de.encryptOrDecrypt(mode,data,key);
-        else de.encryptOrDecrypt(mode,key,inFile,outFile);
-
-        
-        
-        
-        
         
       
 

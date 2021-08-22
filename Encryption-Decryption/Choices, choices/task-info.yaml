@@ -179,28 +179,34 @@ files:
 
     }
   learner_created: false
+- name: src/encryptdecrypt/algorithm/UnicodeAlgorithm.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algorithm/ShiftAlgorithm.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algorithm/EncryptionSender.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algorithm/Encryption.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/Test.java
+  visible: true
+  learner_created: true
+- name: src/encryptdecrypt/algorithm/EncryptionStaticFactory.java
+  visible: true
+  learner_created: true
 - name: output.txt
   visible: true
-  text: 111122223333
   learner_created: true
-- name: src/encryptdecrypt/algoritm/MainAlgoritmh.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/test.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/algoritm/EncodingDecoding.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/algoritm/UnicodeAlgorithm.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/algoritm/ShiftAlgorithm.java
-  visible: true
-  learner_created: true
-- name: src/encryptdecrypt/algoritm/EncodingDecodingSender.java
+- name: src/encryptdecrypt/EncryptionCore.java
   visible: true
   learner_created: true
 feedback_link: https://hyperskill.org/projects/46/stages/250/implement#comment
-status: Unchecked
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">JetBrains
+    Academy</a> to continue learning.
+  time: Sun, 22 Aug 2021 13:44:05 UTC
 record: 6
